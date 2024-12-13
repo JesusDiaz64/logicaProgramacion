@@ -15,10 +15,11 @@ class Circulo:
         return 2 * math.pi * self.radio
     
     def __str__(self):
-        return print(f"Circulo de radio {self.radio}")
+        return f"Circulo de radio {self.radio}"
 
-mi_Circulo = Circulo(5)
+mi_Circulo = Circulo(1000)
 print(f"""
+      {mi_Circulo}
       Área: {mi_Circulo.calcular_Area():.2f}
       Circunferencia: {mi_Circulo.calcular_Circunferencia():.2f}
       """)
